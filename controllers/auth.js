@@ -83,13 +83,6 @@ const loginUser = async(request, response) => {
     }
 }
 
-// const renewUserToken = async(request, response) => {
-//     response.json({
-//         ok: true,
-//         uid: request.uid
-//     })
-// }
-
 const renewUserToken = async(request, response) => {
     const { uid } = request.body
 
